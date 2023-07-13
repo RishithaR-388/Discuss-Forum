@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisCussion Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="nav-list">
+                    <span class="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                    <li class="nav-item">
+                        <a href="home.html">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="posts.html">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="details.html">Details</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="MYbrand "><i>DisCussion FoRuM</i></div>
+        </div>
+        <!-- search box -->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="everything">everything</option>
+                    <option value="title">Title</option>
+                    <option value="descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" id="" placeholder="Search for........">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="">DisCussion FoRuM - Forums</a> >> <a href="">random subforum</a></span>
+        </div>
+        <div class="posts-table">
+            <div class="table-head">
+                <div class="status">Status</div>
+                <div class="subjects">Subjects</div>
+                <div class="replies">Replies</div>
+                <div class="last-reply">Last-Reply</div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                    <div class="subjects"><a href="#">Is it worth doing this?????</a>
+                    <br>
+                    <span>Started by <b><a href="#">User</a></b>.</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+                <div class="last-reply">
+                    31st May'23
+                    <br>
+                    By a <b><a href="#">User</a></b>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-frown-o"></i></div>
+                    <div class="subjects"><a href="#">Is it worth doing this?????</a>
+                    <br>
+                    <span>Started by <b><a href="#">User</a></b>.</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+                <div class="last-reply">
+                    31st May'23
+                    <br>
+                    By a <b><a href="#">User</a></b>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-car"></i></div>
+                    <div class="subjects"><a href="#">Is it worth doing this?????</a>
+                    <br>
+                    <span>Started by <b><a href="#">User</a></b>.</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+                <div class="last-reply">
+                    31st May'23
+                    <br>
+                    By a <b><a href="#">User</a></b>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-rocket"></i></div>
+                    <div class="subjects"><a href="#">Is it worth doing this?????</a>
+                    <br>
+                    <span>Started by <b><a href="#">User</a></b>.</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+                <div class="last-reply">
+                    31st May'23
+                    <br>
+                    By a <b><a href="#">User</a></b>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-close"></i></div>
+                    <div class="subjects"><a href="#">Is it worth doing this?????</a>
+                    <br>
+                    <span>Started by <b><a href="#">User</a></b>.</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+                <div class="last-reply">
+                    31st May'23
+                    <br>
+                    By a <b><a href="#">User</a></b>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                pages: <a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a>
+            </div>
+
+            <div class="note">
+                <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+                <span><i class="fa fa-fire"></i>&nbsp; High Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+                <span><i class="fa fa-car"></i>&nbsp; Popular Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+                <span><i class="fa fa-rocket"></i>&nbsp; Low Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+                <span><i class="fa fa-close"></i>&nbsp; Closed Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+            </div>
+        
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
